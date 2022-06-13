@@ -1,0 +1,63 @@
+@import url(FondoEmpresa.scss);
+@import url(FondoContact.scss);
+.container-title{
+  position: absolute;
+  width: 56%;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/*title pages*/
+
+.title-empresa{
+
+  color: white;
+}
+.title-service{
+
+  color: black;
+}
+.title-contact{
+  color: white;
+}
+/*parraf page*/
+
+.texto-services{
+color: black;
+}
+.texto-empresa{
+  color: white;
+}
+
+/*containers*/
+
+.container-one{
+  background-color:red ;
+  height: 400px;
+}
+.container-two{
+  background-color:blue;
+  height: 400px;
+}
+.container-tree{
+  background-color:rebeccapurple ;
+  height: 400px;
+}
+
+    @media screen and (max-width:550px) {
+
+      .img-baner .d-block{
+      height: 600px;
+      object-position:center;
+      -o-object-position: 0rem;
+      object-fit: cover;
+       }
+       .title-contact{
+        color: transparent;
+       }
+  }
+  
+
